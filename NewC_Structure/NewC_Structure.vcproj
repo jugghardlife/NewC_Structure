@@ -178,6 +178,10 @@
 				RelativePath=".\DynamicArray.c"
 				>
 			</File>
+			<File
+				RelativePath=".\动态数组.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="头文件"
