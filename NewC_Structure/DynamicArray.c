@@ -26,7 +26,7 @@ void Push_Back_Array(Dynamic_Array *arr,int value)
 		//第一步申请一个更大的内存空间，新空间是就空间的2倍
 		int *newSpace=(int*)malloc(sizeof(int)*arr->capacity*2);
 		//第二步拷贝数据到新的空间
-		memcy(newSpace,arr->pAddr,arr->capacity*sizeof(int));
+		memcpy(newSpace,arr->pAddr,arr->capacity*sizeof(int));
 		//第三步释放旧空间的内存
 		free(arr->pAddr);
 		//更新容量
@@ -40,17 +40,49 @@ void Push_Back_Array(Dynamic_Array *arr,int value)
 //根据位置删除
 void RemoveByPos_Array(Dynamic_Array *arr,int pos)
 {
-
+	int i;
+	if(NULL==arr)
+	{
+		return;
+	}
+	if(pos<0||pos>=arr->size)
+	{
+		return;
+	}
+	
+	for(i=pos;i<arr->size-1;i++)
+	{
+		arr->pAddr[i]=arr->pAddr[i+1];
+	}
+	arr->size--;
 }
 //根据值删除
 void RemoveByValue_Array(Dynamic_Array *arr,int value)
-{
+{	
+	int pos=Find_Array(arr,value);
 
+	RemoveByPos_Array(arr,pos);
 }
 //查找
 int Find_Array(Dynamic_Array *arr,int value)
 {
-	return 0;
+	int pos=-1,i;
+	if(NULL==arr)
+	{
+		return -1;
+	}
+
+	//找到值的位置
+	for(i=0;i<arr->size;i++)
+	{
+		if(arr->pAddr[i]==value)
+		{
+			pos=i;
+			break;
+		}
+	}
+
+	return pos;
 }
 //打印
 void Print_Array(Dynamic_Array *arr)
@@ -62,8 +94,9 @@ void Print_Array(Dynamic_Array *arr)
 	}
 	for(i=0;i<arr->size;i++)
 	{
-		printf("%d",arr->pAddr[i]);
+		printf("%d ",arr->pAddr[i]);
 	}
+	printf("\n");
 }
 //释放动态数组的内存
 void FreeSpace_Array(Dynamic_Array *arr)
@@ -93,7 +126,7 @@ int Capacity_Array(Dynamic_Array *arr)
 {
 	if(NULL==arr)
 	{
-		return;
+		return -1;
 	}
 	
 	return arr->capacity;
@@ -103,7 +136,7 @@ int Size_Array(Dynamic_Array *arr)
 {
 	if(NULL==arr)
 	{
-		return;
+		return -1;
 	}
 
 	return arr->size;
@@ -111,9 +144,5 @@ int Size_Array(Dynamic_Array *arr)
 //根据位置获得某个位置元素
 int At_Array(Dynamic_Array *arr,int pos)
 {
-	if(NULL==arr)
-	{
-		return;
-	}
 	return arr->pAddr[pos];
 }
