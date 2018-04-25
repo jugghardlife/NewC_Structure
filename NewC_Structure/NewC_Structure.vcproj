@@ -179,15 +179,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\LinkList.c"
-				>
-			</File>
-			<File
 				RelativePath=".\动态数组.c"
-				>
-			</File>
-			<File
-				RelativePath=".\单向链表.c"
 				>
 			</File>
 		</Filter>
@@ -198,10 +190,6 @@
 			>
 			<File
 				RelativePath=".\DynamicArray.h"
-				>
-			</File>
-			<File
-				RelativePath=".\LinkList.h"
 				>
 			</File>
 		</Filter>
