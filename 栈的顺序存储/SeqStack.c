@@ -41,7 +41,7 @@ void* Top_SeqStack(SeqStack* stack)
 		return NULL;
 	}
 	
-	if(NULL==stack->size)
+	if(0==stack->size)
 	{
 		return NULL;
 	}
