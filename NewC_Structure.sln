@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列顺序存储", "队�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的应用就近选择", "栈的应用就近选择.c\栈的应用就近选择.c.vcproj", "{ABEA823E-FC16-46D2-9680-19A961316238}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的应用中缀转后缀", "栈的应用中缀转后缀\栈的应用中缀转后缀.vcproj", "{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{ABEA823E-FC16-46D2-9680-19A961316238}.Debug|Win32.Build.0 = Debug|Win32
 		{ABEA823E-FC16-46D2-9680-19A961316238}.Release|Win32.ActiveCfg = Release|Win32
 		{ABEA823E-FC16-46D2-9680-19A961316238}.Release|Win32.Build.0 = Release|Win32
+		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Debug|Win32.Build.0 = Debug|Win32
+		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Release|Win32.ActiveCfg = Release|Win32
+		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
