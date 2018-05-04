@@ -21,6 +21,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的应用就近选择", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的应用中缀转后缀", "栈的应用中缀转后缀\栈的应用中缀转后缀.vcproj", "{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的递归遍历", "二叉树的递归遍历.c\二叉树的递归遍历.c.vcproj", "{6BCC1AEA-2895-4DCD-AE92-A696AADC75A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树编程实战_求叶子结点数目", "二叉树编程实战_求叶子结点数目\二叉树编程实战_求叶子结点数目.vcproj", "{E5EC1BD4-ED3B-42E8-B40F-53ED1B1DECF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树编程实战_拷贝二叉树", "二叉树编程实战_拷贝二叉树\二叉树编程实战_拷贝二叉树.vcproj", "{71F0F191-6B7B-40CD-9BA8-787ED222E7F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树非递归遍历", "二叉树非递归遍历\二叉树非递归遍历.vcproj", "{E7FBED46-BDB0-4B0F-A073-1E69862478A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +75,22 @@ Global
 		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Debug|Win32.Build.0 = Debug|Win32
 		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Release|Win32.ActiveCfg = Release|Win32
 		{98A10D7A-12C7-4072-8EFF-EE5AEF320B70}.Release|Win32.Build.0 = Release|Win32
+		{6BCC1AEA-2895-4DCD-AE92-A696AADC75A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BCC1AEA-2895-4DCD-AE92-A696AADC75A2}.Debug|Win32.Build.0 = Debug|Win32
+		{6BCC1AEA-2895-4DCD-AE92-A696AADC75A2}.Release|Win32.ActiveCfg = Release|Win32
+		{6BCC1AEA-2895-4DCD-AE92-A696AADC75A2}.Release|Win32.Build.0 = Release|Win32
+		{E5EC1BD4-ED3B-42E8-B40F-53ED1B1DECF9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5EC1BD4-ED3B-42E8-B40F-53ED1B1DECF9}.Debug|Win32.Build.0 = Debug|Win32
+		{E5EC1BD4-ED3B-42E8-B40F-53ED1B1DECF9}.Release|Win32.ActiveCfg = Release|Win32
+		{E5EC1BD4-ED3B-42E8-B40F-53ED1B1DECF9}.Release|Win32.Build.0 = Release|Win32
+		{71F0F191-6B7B-40CD-9BA8-787ED222E7F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71F0F191-6B7B-40CD-9BA8-787ED222E7F6}.Debug|Win32.Build.0 = Debug|Win32
+		{71F0F191-6B7B-40CD-9BA8-787ED222E7F6}.Release|Win32.ActiveCfg = Release|Win32
+		{71F0F191-6B7B-40CD-9BA8-787ED222E7F6}.Release|Win32.Build.0 = Release|Win32
+		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Debug|Win32.Build.0 = Debug|Win32
+		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Release|Win32.ActiveCfg = Release|Win32
+		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
