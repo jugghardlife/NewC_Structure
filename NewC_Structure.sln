@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树编程实战_拷�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树非递归遍历", "二叉树非递归遍历\二叉树非递归遍历.vcproj", "{E7FBED46-BDB0-4B0F-A073-1E69862478A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的井号创建法", "二叉树的井号创建法\二叉树的井号创建法.vcproj", "{8280E14D-68C9-45D6-8323-D42C3309E768}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冒泡排序", "冒泡排序\冒泡排序.vcproj", "{F00971B1-80F3-4F6D-A456-86EF4EEFC540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +95,14 @@ Global
 		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Debug|Win32.Build.0 = Debug|Win32
 		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Release|Win32.ActiveCfg = Release|Win32
 		{E7FBED46-BDB0-4B0F-A073-1E69862478A3}.Release|Win32.Build.0 = Release|Win32
+		{8280E14D-68C9-45D6-8323-D42C3309E768}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8280E14D-68C9-45D6-8323-D42C3309E768}.Debug|Win32.Build.0 = Debug|Win32
+		{8280E14D-68C9-45D6-8323-D42C3309E768}.Release|Win32.ActiveCfg = Release|Win32
+		{8280E14D-68C9-45D6-8323-D42C3309E768}.Release|Win32.Build.0 = Release|Win32
+		{F00971B1-80F3-4F6D-A456-86EF4EEFC540}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F00971B1-80F3-4F6D-A456-86EF4EEFC540}.Debug|Win32.Build.0 = Debug|Win32
+		{F00971B1-80F3-4F6D-A456-86EF4EEFC540}.Release|Win32.ActiveCfg = Release|Win32
+		{F00971B1-80F3-4F6D-A456-86EF4EEFC540}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
