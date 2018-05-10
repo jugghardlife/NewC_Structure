@@ -21,7 +21,7 @@ void PrintArray(int arr[],int length)
 	int i;
 	for(i=0;i<length;i++)
 	{
-		printf("%d",arr[i]);
+		printf("%d ",arr[i]);
 	}
 	printf("\n");
 }
@@ -38,10 +38,24 @@ void Swap(int* a,int* b)
 void SelectSort(int arr[],int length)
 {
 	int i;
+	int j;
 	int min;
+	//选择排序减少了交换次数
 	for(i=0;i<length;i++)
 	{
-		min=i
+		min=i;
+		for(j=i+1;j<length;j++)
+		{
+			if(arr[j]<arr[min])
+			{
+				min=j;
+			}
+		}
+
+		if(min!=i)
+		{
+			Swap(&arr[min],&arr[i]);
+		}
 	}
 
 }
@@ -50,7 +64,18 @@ void SelectSort(int arr[],int length)
 
 int main()
 {
-	
+	int arr[MAX];
+	int i;
+	srand((unsigned)time(NULL));
+	for(i=0;i<MAX;i++)
+	{
+		arr[i]=rand()%MAX;
+	}
+
+	SelectSort(arr,MAX);
+
+	PrintArray(arr,MAX);
+
 	system("pause");
 	return 0;
 }
